@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="app-origin" content="https://hockey.155-212-134-75.sslip.io" />
+<title>Играем в хоккей — соперники на товарищеские игры для детских команд</title>
+<meta name="description" content="Приложение в Telegram для тренеров, родкомов и родителей: найдите соперника на товарищеский матч, договоритесь о дате и льде, найдите вратаря на одну игру. Москва и Московская область. Без установки." />
+<meta name="theme-color" content="#132646" />
+<link rel="canonical" href="https://evina0303-creator.github.io/GameHockey/" />
+<link rel="icon" type="image/svg+xml" href="img/logo-orange.svg" />
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png?v=2" />
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png?v=2" />
+<meta name="application-name" content="Товарняки" />
+<meta name="apple-mobile-web-app-title" content="Товарняки" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:site_name" content="Играем в хоккей" />
+<meta property="og:title" content="Найдите соперника на товарняк за пару минут" />
+<meta property="og:description" content="Приложение в Telegram для детских хоккейных команд: объявления, отклики, афиша игр, заявки на вратаря. Москва и область." />
+<meta property="og:url" content="https://evina0303-creator.github.io/GameHockey/" />
+<meta property="og:image" content="https://evina0303-creator.github.io/GameHockey/og.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="stylesheet" href="fonts/montserrat.css" />
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="style.css" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Играем в хоккей","applicationCategory":"SportsApplication","operatingSystem":"Telegram, Android, iOS","inLanguage":"ru","url":"https://evina0303-creator.github.io/GameHockey/","description":"Товарищеские игры детских хоккейных команд Москвы и Московской области: объявления, отклики, афиша, заявки на игроков.","offers":{"@type":"Offer","price":"0","priceCurrency":"RUB"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="site-header" id="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Играем в хоккей — наверх">
+      <img src="img/logo-orange.svg" width="40" height="44" alt="" />
+      <span class="brand-word">Товарняки</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы страницы">
+      <a href="#how">Как это работает</a>
+      <a href="#start-options">Как начать</a>
+      <a href="#features">Возможности</a>
+      <a href="#look">Скриншоты</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn-sm" href="https://t.me/gamehockey_bot?start=site">Открыть в Telegram</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="rink" aria-hidden="true">
+    <svg viewBox="0 0 1200 760" preserveAspectRatio="xMidYMid slice" fill="none">
+      <circle cx="900" cy="380" r="260" class="r-ring" />
+      <line x1="600" y1="0" x2="600" y2="760" class="r-red" />
+      <circle cx="900" cy="380" r="9" class="r-dot" />
+    </svg>
+  </div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><i></i>Товарищеские игры · детский хоккей · Москва и МО</p>
+      <h1>Найдите соперника на товарняк <span class="hl">за пару минут</span></h1>
+      <p class="lead">Приложение для тренеров, родкомов и родителей: в Telegram или отдельным значком на телефоне. Опубликуйте, когда и где готовы играть, и команды вашего года откликнутся сами. Без обзвона, без пяти чатов и без «а какой у вас год?».</p>
+      <div class="cta-row">
+        <a class="btn btn-lg" href="https://t.me/gamehockey_bot?start=site">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21.4 4.3 2.9 11.4c-1 .4-1 1.1-.2 1.3l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3-14.3c.3-1.2-.4-1.8-1.2-1.4zM9 14l8.9-5.6c.4-.3.8-.1.5.2l-7.2 6.8-.3 3.1L9 14z"/></svg>
+          Открыть в Telegram
+        </a>
+        <a class="btn btn-ghost btn-lg" href="#start-phone">Без Telegram: на телефон</a>
+      </div>
+      <ul class="ticks">
+        <li>Telegram не нужен: профиль создаётся прямо в приложении</li>
+        <li>Телефон виден, только когда вы сами разрешили</li>
+      </ul>
+    </div>
+    <div class="hero-visual" aria-hidden="false">
+      <figure class="phone phone-back"><div class="screen"><img src="img/feed.webp" width="780" height="1688" alt="Лента объявлений: команды зовут к себе, указаны дата, время, формат и условия льда" /></div></figure>
+      <figure class="phone phone-front"><div class="screen"><img src="img/home.webp" width="780" height="1688" alt="Главный экран команды: ближайшие игры с наклейками и кнопка поиска соперника" fetchpriority="high" /></div></figure>
+      <div class="float f1"><b>Новый отклик</b><span>Комета Реутов · вс, 10:00</span></div>
+      <div class="float f2"><b>Игра согласована</b><span>5×5 · ЛД Мытищи-Арена</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ЗНАКОМО -->
+<section class="sec light" id="pain">
+  <div class="wrap">
+    <p class="kicker">Знакомо?</p>
+    <h2>Три вопроса, которые съедают время тренера и родкома</h2>
+    <div class="grid3 reveal-group">
+      <article class="card reveal">
+        <span class="num">01</span>
+        <h3>«Кто сыграет с нами в субботу?»</h3>
+        <p>Пишете в пять чатов, и сообщение тонет за час. В приложении объявление живёт, пока не найдётся соперник, и его сразу видят все команды вашего года.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">02</span>
+        <h3>«Какой год? Где играете? Дайте телефон»</h3>
+        <p>Год, состав, арена, формат и условия по льду уже в карточке. Телефон открывается только после того, как согласились обе команды.</p>
+      </article>
+      <article class="card reveal">
+        <span class="num">03</span>
+        <h3>«Нужен вратарь на одну игру»</h3>
+        <p>Опубликуйте заявку на вратаря, защитников или нападающих — родители подходящих ребят получат уведомление. А тем, кому не хватает игр, есть анкета «Ищу игру».</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- КАК ЭТО РАБОТАЕТ -->
+<section class="sec light" id="how">
+  <div class="wrap">
+    <p class="kicker">Как это работает</p>
+    <h2>От регистрации до итога матча — четыре шага</h2>
+
+    <div class="step reveal">
+      <div class="step-text">
+        <span class="step-no">1</span>
+        <h3>Зарегистрируйте команду</h3>
+        <p>Выберите год, лигу (ФХМ, ПМО, КФК) и свою команду из списка. Нет в списке? Впишите название. Для малышей 2018–2019 лиг не нужно. Укажите домашнюю арену — она подставится в ваши объявления.</p>
+      </div>
+      <figure class="phone"><div class="screen"><img src="img/register.webp" width="780" height="1688" loading="lazy" alt="Регистрация команды: год рождения, лига и группа" /></div></figure>
+    </div>
+
+    <div class="step flip reveal">
+      <div class="step-text">
+        <span class="step-no">2</span>
+        <h3>Опубликуйте объявление</h3>
+        <p>«Зову к себе» или «Еду в гости»: выберите дни, время ползунком, формат 5×5, 4×4 или 3×3 и условия льда. Приложение сразу покажет, кто уже ищет соперника на эти дни.</p>
+      </div>
+      <figure class="phone"><div class="screen"><img src="img/publish.webp" width="780" height="1688" loading="lazy" alt="Форма объявления: дни, подсказка о командах, которые уже ищут соперника, ползунок времени" /></div></figure>
+    </div>
+
+    <div class="step reveal">
+      <div class="step-text">
+        <span class="step-no">3</span>
+        <h3>Выберите соперника</h3>
+        <p>Команды откликаются сами: вы видите год, лигу, арену, предложенные день и время. Первый откликнувшийся подсвечен. Вопросы до выбора — в переписке внутри приложения, телефоны остаются закрытыми.</p>
+      </div>
+      <figure class="phone"><div class="screen"><img src="img/responses.webp" width="780" height="1688" loading="lazy" alt="Отклики на объявление и кнопка «Выбрать соперником»" /></div></figure>
+    </div>
+
+    <div class="step flip reveal">
+      <div class="step-text">
+        <span class="step-no">4</span>
+        <h3>Сыграйте и зафиксируйте итог</h3>
+        <p>После игры обе стороны подтверждают счёт — расхождений не остаётся. Затем можно оценить соперника: приём, судейство, игру и пунктуальность. Средняя оценка видна всем в каталоге.</p>
+      </div>
+      <figure class="phone"><div class="screen"><img src="img/finished.webp" width="780" height="1688" loading="lazy" alt="Карточка игры: матч завершён со счётом 5:3" /></div></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ДЛЯ КОГО -->
+<section class="sec dark" id="audience">
+  <div class="wrap">
+    <p class="kicker">Для кого</p>
+    <h2>Один вход для тренера, родителя и юного игрока</h2>
+    <div class="grid3 reveal-group">
+      <article class="aud reveal">
+        <h3>Я тренер или родком</h3>
+        <p>Зарегистрируйте команду за две минуты, публикуйте «Зову к себе» или «Еду в гости» и выбирайте соперника среди откликов. Время, формат, арена, условия льда — всё в одном объявлении.</p>
+        <a class="link" href="#how">Как это устроено →</a>
+      </article>
+      <article class="aud reveal">
+        <h3>Я родитель</h3>
+        <p>Следите за командой ребёнка: ближайшие игры, афиша, чат команды. Бот напишет, когда команда объявила игру или игра согласована.</p>
+        <a class="link" href="https://t.me/gamehockey_bot?start=site">Открыть в Telegram →</a>
+      </article>
+      <article class="aud reveal">
+        <h3>Моему ребёнку не хватает игр</h3>
+        <p>Заведите профиль игрока (имя, год, амплуа, клуб), выставьте анкету «Ищу игру» или откликнитесь на заявку команды, которой нужен вратарь или защитник.</p>
+        <a class="link" href="https://t.me/gamehockey_bot?start=site">Открыть в Telegram →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- КАК НАЧАТЬ -->
+<section class="sec light start" id="start-options">
+  <div class="wrap">
+    <p class="kicker">Как начать</p>
+    <h2>Два способа: через Telegram или отдельным приложением на телефоне</h2>
+    <p class="sub">Команды, игры и отклики общие и там, и там. Выберите, как удобнее; при желании можно пользоваться обоими.</p>
+
+    <div class="ways" role="tablist" aria-label="Способ начать">
+      <button class="way on" role="tab" id="tab-tg" aria-controls="way-tg" aria-selected="true" data-way="tg" type="button">
+        <span class="way-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.4 4.3 2.9 11.4c-1 .4-1 1.1-.2 1.3l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3-14.3c.3-1.2-.4-1.8-1.2-1.4zM9 14l8.9-5.6c.4-.3.8-.1.5.2l-7.2 6.8-.3 3.1L9 14z"/></svg></span>
+        <span class="way-text"><b>Через Telegram</b><small>Telegram уже стоит и работает. Ничего устанавливать не нужно</small></span>
+      </button>
+      <button class="way" role="tab" id="tab-phone" aria-controls="way-phone" aria-selected="false" data-way="phone" type="button">
+        <span class="way-ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 18.5h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <span class="way-text"><b>Приложением на телефоне</b><small>Без Telegram: значок на экране, профиль создаётся по имени</small></span>
+      </button>
+    </div>
+
+    <!-- способ 1: Telegram -->
+    <div class="way-panel" id="way-tg" role="tabpanel" aria-labelledby="tab-tg">
+      <div class="way-grid">
+        <div>
+          <ol class="steps">
+            <li><span class="n">1</span><div><h3>Откройте бота</h3><p>Нажмите кнопку ниже или наведите камеру телефона на QR-код. Откроется Telegram с ботом «Товарняки».</p></div></li>
+            <li><span class="n">2</span><div><h3>Нажмите «Запустить»</h3><p>Эта кнопка внизу экрана чата. Если Telegram на английском, она называется «Start».</p></div></li>
+            <li><span class="n">3</span><div><h3>Нажмите «Открыть приложение»</h3><p>Кнопка под приветствием бота. Потом приложение открывается и кнопкой «Играем» рядом с полем ввода.</p></div></li>
+            <li><span class="n">4</span><div><h3>Выберите, кто вы</h3><p>Тренер или родком регистрирует команду, родитель присоединяется к команде ребёнка. Это займёт пару минут.</p></div></li>
+          </ol>
+          <div class="way-cta">
+            <a class="btn btn-lg" href="https://t.me/gamehockey_bot?start=site">
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M21.4 4.3 2.9 11.4c-1 .4-1 1.1-.2 1.3l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3-14.3c.3-1.2-.4-1.8-1.2-1.4zM9 14l8.9-5.6c.4-.3.8-.1.5.2l-7.2 6.8-.3 3.1L9 14z"/></svg>
+              Открыть в Telegram
+            </a>
+            <div class="qr qr-inline"><img src="qr.svg" width="120" height="120" alt="QR-код: бот в Telegram" loading="lazy" /><span>С компьютера: наведите камеру телефона</span></div>
+          </div>
+          <p class="way-note">Уведомления об откликах и играх придут в Telegram: специально ничего включать не нужно.</p>
+        </div>
+        <figure class="phone chat-mock" aria-label="Так выглядит чат с ботом">
+          <div class="screen chat">
+            <div class="chat-top"><span class="chat-ava"><img src="img/logo-orange.svg" alt="" /></span><span><b>Товарняки | Играем в хоккей</b><small>бот</small></span></div>
+            <div class="chat-body">
+              <div class="bubble"><b>🏒 Играем в хоккей</b><br />Товарищеские игры для детских команд Москвы и Московской области.<br />Зовите соперников к себе или находите, куда поехать: по году рождения, дате и арене.<br /><br />Нажмите кнопку ниже, чтобы открыть приложение.<time>12:04</time></div>
+              <div class="inline-btn"><span>🏒 Открыть приложение</span><i class="pulse" aria-hidden="true"></i></div>
+            </div>
+            <div class="chat-bar"><span class="menu-btn">Играем</span><span class="chat-input">Сообщение</span></div>
+          </div>
+        </figure>
+      </div>
+    </div>
+
+    <!-- способ 2: установка на телефон -->
+    <div class="way-panel" id="way-phone" role="tabpanel" aria-labelledby="tab-phone" hidden>
+      <div class="os-tabs" role="tablist" aria-label="Какой у вас телефон">
+        <button class="os on" role="tab" id="tab-android" aria-controls="os-android" aria-selected="true" data-os="android" type="button">Android</button>
+        <button class="os" role="tab" id="tab-ios" aria-controls="os-ios" aria-selected="false" data-os="ios" type="button">iPhone</button>
+      </div>
+
+      <div class="way-grid">
+        <div>
+          <div class="os-panel" id="os-android" role="tabpanel" aria-labelledby="tab-android">
+            <ol class="steps">
+              <li><span class="n">1</span><div><h3>Откройте приложение</h3><p>Нажмите кнопку ниже или наведите камеру на QR-код. Страница откроется в браузере (лучше всего в Chrome).</p></div></li>
+              <li><span class="n">2</span><div><h3>Создайте профиль</h3><p>Впишите имя и нажмите «Создать профиль». Telegram и номер телефона не нужны.</p></div></li>
+              <li><span class="n">3</span><div><h3>Запишите ключ</h3><p>Приложение покажет ключ из 16 знаков. Сфотографируйте экран или перепишите: с ним можно вернуться к своим командам, если телефон сменится.</p></div></li>
+              <li><span class="n">4</span><div><h3>Поставьте значок на экран</h3>
+                <p>Нажмите «Установить приложение» в карточке «Поставьте на телефон». Если её нет, откройте меню браузера <span class="ico" aria-label="три точки"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></span> (справа вверху) и выберите «Установить приложение» (иногда «Добавить на главный экран»).</p>
+                <figure class="mk"><div class="mk-card mk-and" aria-hidden="true"><ul class="mk-menu"><li>Новая вкладка</li><li>История</li><li>Закладки</li><li class="mk-hl">Установить приложение</li><li>Поделиться…</li><li>Настройки</li></ul></div><figcaption>Меню браузера: нужный пункт подсвечен</figcaption></figure>
+                <p>Телефон спросит подтверждение: название уже будет «Товарняки», ничего вписывать не нужно. Нажмите «Установить».</p>
+                <figure class="mk"><div class="mk-card mk-and-dialog" aria-hidden="true"><div class="mk-d-head"><img src="icons/icon-192.png?v=2" alt="" /><div><b>Установить приложение?</b><small>Товарняки</small></div></div><div class="mk-d-btns"><span>Отмена</span><span class="mk-hl fill">Установить</span></div></div><figcaption>Окно подтверждения</figcaption></figure>
+                <p class="help-note">Если у вас Яндекс Браузер или другой: пункт обычно называется так же («Установить приложение» или «Добавить на главный экран»). Если его нет, скопируйте адрес и откройте его в Chrome.</p>
+              </div></li>
+              <li><span class="n">5</span><div><h3>Включите уведомления</h3><p>Откройте значок «Товарняки», зайдите в «Профиль и вход» и нажмите «Включить уведомления». Разрешите их в окне телефона.</p></div></li>
+            </ol>
+          </div>
+          <div class="os-panel" id="os-ios" role="tabpanel" aria-labelledby="tab-ios" hidden>
+            <ol class="steps">
+              <li><span class="n">1</span><div><h3>Откройте приложение в Safari</h3>
+                <p>Нажмите кнопку ниже или наведите камеру на QR-код. Значок на экран «Домой» надёжнее всего ставится именно из Safari.</p>
+                <details class="help" id="start-safari">
+                  <summary><span class="help-ico" aria-hidden="true">!</span><span><b>Открылось не в Safari?</b> Яндекс, Chrome, Telegram, WhatsApp… Покажем, как перейти</span></summary>
+                  <div class="help-body">
+                    <p>Так бывает: на многих iPhone по умолчанию стоит Яндекс или другой браузер, а ссылки из мессенджеров открываются внутри них. Перейти в Safari можно за полминуты:</p>
+                    <ol class="mini">
+                      <li><b>Скопируйте адрес.</b> Нажмите кнопку «Скопировать»: адрес запомнится телефоном.
+                        <div class="copybox"><input readonly value="https://hockey.155-212-134-75.sslip.io/app/" data-app-url aria-label="Адрес приложения" /><button class="btn btn-sm" type="button" data-copy-app>Скопировать</button></div></li>
+                      <li><b>Откройте Safari.</b> Это значок-компас на экране «Домой», обычно внизу. Не нашли: потяните экран вниз и впишите «Safari» в поиск.
+                        <figure class="mk"><div class="mk-card mk-home" aria-hidden="true"><div class="mk-grid"><i style="--c:#7aa7ff"></i><i style="--c:#ffb36b"></i><i style="--c:#8bd3a8"></i><i style="--c:#c9a7ff"></i><i style="--c:#ff8f8f"></i><i style="--c:#7fd6e3"></i><i style="--c:#f2d36b"></i><i style="--c:#9aa7b8"></i></div><div class="mk-dock"><i style="--c:#6bd58c"></i><i style="--c:#7aa7ff"></i><i class="mk-safari mk-hl"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#2f7cf6"/><circle cx="24" cy="24" r="16.5" fill="none" stroke="#fff" stroke-width="2"/><path d="M32 16l-6 10-10 6 6-10z" fill="#fff"/><path d="M32 16l-6 10-3-5z" fill="#ff5a4f"/></svg></i><i style="--c:#ffb36b"></i></div></div><figcaption>Значок Safari (компас) на экране «Домой»</figcaption></figure></li>
+                      <li><b>Вставьте адрес.</b> Нажмите на адресную строку Safari, затем нажмите на неё ещё раз, подержите и выберите «Вставить и перейти».
+                        <figure class="mk"><div class="mk-card mk-paste" aria-hidden="true"><div class="mk-page"><b></b><b></b><b></b></div><div class="mk-bubble">Вставить и перейти</div><div class="mk-addr mk-hl"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2" fill="currentColor"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="2"/></svg><span data-app-host>hockey.155-212-134-75.sslip.io/app/</span></div></div><figcaption>Адресная строка Safari: вставляем скопированный адрес</figcaption></figure></li>
+                    </ol>
+                    <p class="help-note"><b>Ссылку открыли из Telegram или WhatsApp?</b> В нижнем меню нажмите «⋯» или значок компаса и выберите «Открыть в Safari» (название пункта может немного отличаться).</p>
+                    <p class="help-note"><b>Хотите, чтобы ссылки всегда открывались в Safari?</b> В «Настройках» iPhone найдите свой браузер (например, Яндекс) и выберите «Приложение для браузера по умолчанию» → «Safari». В новых версиях iOS это же в «Настройки» → «Приложения» → «Приложения по умолчанию». Названия пунктов зависят от версии iOS.</p>
+                  </div>
+                </details>
+              </div></li>
+              <li><span class="n">2</span><div><h3>Нажмите «Поделиться»</h3>
+                <p>Квадрат со стрелкой вверх <span class="ico" aria-label="значок «Поделиться»"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M8 7l4-4 4 4M7 10H6a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1h-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span> в нижней панели Safari (на iPad вверху справа).</p>
+                <figure class="mk"><div class="mk-card mk-bar" aria-hidden="true"><div class="mk-addr small"><span data-app-host>hockey.155-212-134-75.sslip.io/app/</span></div><div class="mk-tools"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><svg viewBox="0 0 24 24" class="dim"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="mk-hl"><svg viewBox="0 0 24 24"><path d="M12 15V3M8 7l4-4 4 4M7 10H6a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1h-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><svg viewBox="0 0 24 24"><path d="M4 5.5C6.5 4 9.5 4 12 5.5 14.5 4 17.5 4 20 5.5v13c-2.500-1.500-5.500-1.500-8 0-2.500-1.500-5.500-1.500-8 0z M12 5.500v13" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><svg viewBox="0 0 24 24"><rect x="4" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 5h10a2 2 0 0 1 2 2v10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div></div><figcaption>Нижняя панель Safari: кнопка «Поделиться» подсвечена</figcaption></figure>
+              </div></li>
+              <li><span class="n">3</span><div><h3>Выберите «На экран «Домой»»</h3>
+                <p>Откроется список. Если нужного пункта не видно, прокрутите список вверх пальцем: он ниже, чем «Скопировать» и «Добавить закладку».</p>
+                <figure class="mk"><div class="mk-card mk-sheet" aria-hidden="true"><div class="mk-sh-head"><img src="icons/apple-touch-icon.png?v=2" alt="" /><div><b>Товарняки</b><small data-app-host>hockey.155-212-134-75.sslip.io/app/</small></div></div><ul><li>Скопировать</li><li>Добавить закладку</li><li>Найти на странице</li><li class="mk-hl">На экран «Домой» <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></li><li>Распечатать</li></ul></div><figcaption>Список действий: нужная строка подсвечена</figcaption></figure>
+              </div></li>
+              <li><span class="n">4</span><div><h3>Проверьте название и нажмите «Добавить»</h3>
+                <p>Название уже будет «Товарняки», а значок — наш логотип «Играем в хоккей». Ничего стирать и вписывать не нужно: нажмите «Добавить» в правом верхнем углу.</p>
+                <figure class="mk"><div class="mk-card mk-add" aria-hidden="true"><div class="mk-nav"><span>Отмена</span><b>На экран «Домой»</b><span class="mk-hl blue">Добавить</span></div><div class="mk-form"><img src="icons/apple-touch-icon.png?v=2" alt="" /><div class="mk-name">Товарняки</div></div><p class="mk-url" data-app-host>hockey.155-212-134-75.sslip.io/app/</p><p class="mk-note">Приложение откроется как обычное, без адресной строки.</p></div><figcaption>Окно добавления значка</figcaption></figure>
+              </div></li>
+              <li><span class="n">5</span><div><h3>Откройте значок и создайте профиль</h3><p>Запустите «Товарняки» с экрана «Домой» и впишите имя. Важно: на iPhone значок хранит данные отдельно от Safari, поэтому профиль создавайте уже в нём.</p></div></li>
+              <li><span class="n">6</span><div><h3>Запишите ключ и включите уведомления</h3><p>Сохраните ключ (снимок экрана подойдёт). Затем «Профиль и вход» и «Включить уведомления». Это работает на iOS 16.4 и новее.</p></div></li>
+            </ol>
+          </div>
+          <div class="way-cta">
+            <a class="btn btn-lg" href="https://hockey.155-212-134-75.sslip.io/app/">Открыть приложение</a>
+            <div class="qr qr-inline"><img src="qr-app.svg" width="120" height="120" alt="QR-код: приложение без Telegram" loading="lazy" /><span>С компьютера: наведите камеру телефона</span></div>
+          </div>
+          <p class="way-note"><b>Сменился телефон или пропал значок?</b> Откройте приложение, выберите «Уже есть профиль» и введите ключ: команды и игры вернутся.</p>
+          <div class="codeflow" id="start-code">
+          <h3>Уже пользуетесь в Telegram? Перенесите профиль на телефон</h3>
+          <p class="codeflow-lead">Команды, игры и отклики останутся теми же. Нужен только короткий код, который показывает приложение в Telegram.</p>
+          <div class="codeflow-grid">
+            <ol class="mini">
+              <li><b>В Telegram откройте приложение</b> и нажмите «Профиль»: кнопка с человечком в оранжевой шапке вверху.</li>
+              <li><b>Нажмите «Показать код входа».</b> Появится код из 8 знаков.</li>
+              <li><b>Нажмите на сам код: он скопируется.</b> Переписывать ничего не нужно. Код действует 10 минут.</li>
+              <li><b>На телефоне откройте приложение</b> (шаги выше). На экране входа выберите «Уже есть профиль», нажмите «Вставить скопированный код» и «Войти». Команды и игры на месте.</li>
+            </ol>
+            <div class="shots3 shots2" aria-label="Где в Telegram взять код входа">
+              <figure><div class="phone"><div class="screen"><img src="img/tg-profile-btn.webp" width="780" height="1688" loading="lazy" alt="Приложение в Telegram: кнопка «Профиль» в оранжевой шапке обведена" /></div></div><figcaption><b>1</b> Кнопка «Профиль»</figcaption></figure>
+              <figure><div class="phone"><div class="screen"><img src="img/tg-code.webp" width="780" height="1688" loading="lazy" alt="Окно «Профиль и вход»: код входа, на который нужно нажать, чтобы скопировать" /></div></div><figcaption><b>2</b> Нажмите на код</figcaption></figure>
+            </div>
+          </div>
+          <p class="way-note">Нет Telegram, но вы уже создавали профиль на другом телефоне? Вместо кода введите там же ключ восстановления, который вы сохранили.</p>
+        </div>
+        </div>
+        <div class="shots3" aria-label="Экраны приложения">
+          <figure><div class="phone"><div class="screen"><img src="img/app-login.webp" width="780" height="1688" loading="lazy" alt="Создание профиля: достаточно имени" /></div></div><figcaption><b>1</b> Профиль по имени</figcaption></figure>
+          <figure><div class="phone"><div class="screen"><img src="img/app-key.webp" width="780" height="1688" loading="lazy" alt="Ключ восстановления, который нужно сохранить" /></div></div><figcaption><b>2</b> Ключ</figcaption></figure>
+          <figure><div class="phone"><div class="screen"><img src="img/app-profile.webp" width="780" height="1688" loading="lazy" alt="Профиль: включение уведомлений и вход на другом устройстве" /></div></div><figcaption><b>3</b> Уведомления</figcaption></figure>
+        </div>
+      </div>
+    </div>
+    <noscript><style>.way-panel[hidden], .os-panel[hidden] { display: block !important; }</style></noscript>
+  </div>
+</section>
+
+<!-- ВОЗМОЖНОСТИ -->
+<section class="sec dark" id="features">
+  <div class="wrap">
+    <p class="kicker">Возможности</p>
+    <h2>Всё для товарищеских игр в одном месте</h2>
+    <div class="grid3 feat reveal-group">
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg><h3>Объявления на игру</h3><p>Несколько дней, время, формат 5×5 / 4×4 / 3×3, условия льда. Личное предложение конкретной команде видит только она.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M9 15l2 2 4-4"/></svg><h3>Афиша игр</h3><p>Календарь всех согласованных игр с наклейками на днях. Листайте вперёд и назад, смотрите счёт прошедших матчей.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg><h3>Все команды и регионы</h3><p>Справочник по лигам и дивизионам ФХМ, ПМО и КФК, отдельно команды из других регионов. Найти и предложить игру — в два касания.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.7-4 3.5-6 7-6s6.3 2 7 6"/></svg><h3>Игроки</h3><p>Заявки команд на вратаря, защитников и нападающих, анкеты «Ищу игру». Игрок может быть записан на два амплуа.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><h3>Переписка команд</h3><p>Задайте вопрос по объявлению или предложите игру, не раскрывая телефон. Контакты открываются по обоюдному согласию.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4M12 14v4M8 21h8"/></svg><h3>Итог встречи</h3><p>Матч состоялся или нет, счёт — обе команды подтверждают одно и то же. Игра попадает в афишу как завершённая.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.6 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg><h3>Отзывы и рейтинг</h3><p>Оценки от 1 до 5 за приём, судейство, игру соперника и пунктуальность. Хорошие хозяева заметны с первого взгляда.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17V11a6 6 0 0 1 12 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg><h3>Уведомления в Telegram</h3><p>Новое объявление вашего года, отклик, выбор соперника, ответ другой команды — бот пишет по делу, без спама.</p></article>
+      <article class="reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7.5 3v5.5c0 4.4-3 8-7.5 9.5-4.5-1.5-7.5-5.1-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg><h3>Несколько представителей</h3><p>Тренер и родком могут вести команду вместе, до пяти человек. Новых принимает владелец команды.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- СКРИНШОТЫ -->
+<section class="sec light" id="look">
+  <div class="wrap">
+    <p class="kicker">Посмотрите изнутри</p>
+    <h2>Так выглядит приложение</h2>
+    <p class="sub">Названия команд на скриншотах вымышленные.</p>
+  </div>
+  <div class="carousel-wrap">
+    <div class="carousel" id="carousel" tabindex="0" aria-label="Скриншоты приложения">
+      <figure class="slide"><div class="phone"><div class="screen"><img src="img/home.webp" width="780" height="1688" loading="lazy" alt="Главный экран команды" /></div></div><figcaption>Главный экран</figcaption></figure>
+      <figure class="slide"><div class="phone"><div class="screen"><img src="img/calendar.webp" width="780" height="1688" loading="lazy" alt="Афиша игр: календарь с наклейками" /></div></div><figcaption>Афиша игр</figcaption></figure>
+      <figure class="slide"><div class="phone"><div class="screen"><img src="img/directory.webp" width="780" height="1688" loading="lazy" alt="Справочник всех команд по лигам и регионам" /></div></div><figcaption>Все команды по лигам и регионам</figcaption></figure>
+      <figure class="slide"><div class="phone"><div class="screen"><img src="img/players.webp" width="780" height="1688" loading="lazy" alt="Заявки команд на игроков" /></div></div><figcaption>Заявки на вратаря и игроков</figcaption></figure>
+      <figure class="slide"><div class="phone"><div class="screen"><img src="img/catalog.webp" width="780" height="1688" loading="lazy" alt="Каталог команд с рейтингом" /></div></div><figcaption>Каталог и рейтинг команд</figcaption></figure>
+      <figure class="slide"><div class="phone"><div class="screen"><img src="img/review.webp" width="780" height="1688" loading="lazy" alt="Отзыв о сопернике: оценки в звёздах" /></div></div><figcaption>Отзыв о сопернике</figcaption></figure>
+    </div>
+    <div class="car-ctl wrap">
+      <button class="round" id="prev" aria-label="Назад">←</button>
+      <button class="round" id="next" aria-label="Вперёд">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- ЦИФРЫ -->
+<section class="stats" id="stats" aria-label="Приложение в цифрах">
+  <div class="wrap stats-grid">
+    <div data-live data-min="5"><b data-stat="teams">—</b><span data-forms="команда|команды|команд" data-suffix=" уже в приложении">команд уже в приложении</span></div>
+        <div data-live data-min="10"><b data-stat="games">—</b><span data-forms="согласованная игра|согласованные игры|согласованных игр">согласованных игр</span></div>
+    <div><b>2010–2019</b><span>годы рождения в приложении</span></div>
+  </div>
+</section>
+
+<!-- ПРИВАТНОСТЬ -->
+<section class="sec dark" id="trust">
+  <div class="wrap trust">
+    <div>
+      <p class="kicker">Безопасно для детей</p>
+      <h2>Контакты — только по согласию</h2>
+      <p class="sub">Детский хоккей: рядом дети и их родители. Поэтому приложение устроено так, чтобы лишнее не светилось.</p>
+    </div>
+    <ul class="trust-list">
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7.5 3v5.5c0 4.4-3 8-7.5 9.5-4.5-1.5-7.5-5.1-7.5-9.5V6z"/><path d="M9 12l2.2 2.2L15.5 10"/></svg><div><b>Телефон закрыт</b><p>Контакты соперника открываются, только когда согласились обе команды.</p></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.7-4 3.5-6 7-6s6.3 2 7 6"/></svg><div><b>О ребёнке — минимум</b><p>Имя, год рождения, амплуа и клуб. Фото, документы и страховка не нужны.</p></div></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></svg><div><b>Чистое общение</b><p>Ссылки и реклама в чатах и на форуме не публикуются, на сообщение можно пожаловаться.</p></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec light" id="faq">
+  <div class="wrap faq-wrap">
+    <div>
+      <p class="kicker">Вопросы</p>
+      <h2>Коротко о главном</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Нужен ли Telegram?</summary><p>Нет. Если Telegram у вас есть, нажмите «Открыть в Telegram», запустите бота и откройте приложение кнопкой в чате. Если не работает или не нужен, откройте «Без Telegram: на телефон», создайте профиль (достаточно имени) и поставьте приложение на экран телефона. Данные команд, игры и отклики общие в обоих вариантах.</p></details>
+      <details><summary>Как поставить приложение на телефон?</summary><p>Откройте ссылку на странице приложения. На Android нажмите «Установить приложение» (или меню браузера → «Установить приложение»). На iPhone в Safari нажмите «Поделиться» → «На экран Домой». Магазин приложений не нужен, значок появится среди остальных. На iPhone профиль лучше создавать уже в значке: в Safari и на значке данные хранятся раздельно (если создали в Safari, войдите в значке по ключу).</p></details>
+      <details><summary>На iPhone ссылка открылась в Яндексе или другом браузере. Как открыть в Safari?</summary><p>Скопируйте адрес приложения, откройте Safari (значок-компас на экране «Домой») и вставьте адрес в адресную строку. Из Telegram или WhatsApp нажмите «⋯» или значок компаса в нижнем меню и выберите «Открыть в Safari». <a class="inline-link" href="#start-safari">Показать пошагово, с картинками</a>.</p></details>
+      <details><summary>Где взять код входа, если я пользовался Telegram?</summary><p>В Telegram откройте приложение и нажмите «Профиль» в оранжевой шапке вверху, затем «Показать код входа» и нажмите на сам код: он скопируется. На телефоне выберите «Уже есть профиль» и вставьте код. <a class="inline-link" href="#start-code">Показать на картинках</a>.</p></details>
+      <details><summary>Что, если я сменю телефон?</summary><p>При создании профиля приложение показывает ключ восстановления: запишите его или сделайте снимок экрана. С ним можно войти на новом телефоне и вернуться к своим командам. Ещё можно взять короткий код входа на уже работающем устройстве: раздел «Профиль и вход».</p></details>
+      <details><summary>Придут ли уведомления без Telegram?</summary><p>Да: в разделе «Профиль и вход» включите уведомления, и телефон сообщит об откликах, согласованных играх и сообщениях. На iPhone это работает после установки значка на экран «Домой».</p></details>
+      <details><summary>Для каких лет и лиг?</summary><p>Годы рождения 2010–2019. Команды ФХМ, ПМО и КФК выбираются из списка; любой другой клуб регистрируется по названию. У 2018–2019 официальных турниров пока нет, поэтому регистрация проще.</p></details>
+      <details><summary>Только Москва и область?</summary><p>Основа — Москва и Подмосковье, но команды из других регионов тоже регистрируются: для них есть отдельный раздел «Регионы» в списке всех команд.</p></details>
+      <details><summary>Что видят другие о моём ребёнке?</summary><p>Только имя, год, амплуа и клуб. Телефон родителя виден лишь тем, с кем вы договорились об игре, и только после взаимного согласия.</p></details>
+      <details><summary>Как добавить второго тренера или родкома?</summary><p>Он выбирает ту же команду при регистрации — приложение предложит отправить заявку владельцу. После подтверждения командой можно управлять вместе (до пяти человек).</p></details>
+      <details><summary>Что, если нашей команды нет в списке федерации?</summary><p>Выберите «Нет в списке» и впишите название; при желании укажите регион. Если похожая команда уже есть, приложение предупредит, чтобы не получилось дублей.</p></details>
+      <details><summary>Куда написать, если что-то не работает?</summary><p>Прямо в приложении: кнопка «Поддержка, ошибки и предложения» на главном экране. Сообщение сразу попадает разработчику.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ФИНАЛ -->
+<section class="final" id="start">
+  <div class="rink" aria-hidden="true">
+    <svg viewBox="0 0 1200 520" preserveAspectRatio="xMidYMid slice" fill="none"><circle cx="1000" cy="260" r="200" class="r-ring" /><line x1="760" y1="0" x2="760" y2="520" class="r-red" /></svg>
+  </div>
+  <div class="wrap final-grid">
+    <div>
+      <h2>Соберите игру на выходные</h2>
+      <p class="lead">Откройте приложение, зарегистрируйте команду и опубликуйте первое объявление. Это займёт пару минут.</p>
+      <div class="cta-row">
+        <a class="btn btn-lg" href="https://t.me/gamehockey_bot?start=site">Открыть в Telegram</a>
+        <a class="btn btn-ghost btn-lg" href="https://hockey.155-212-134-75.sslip.io/app/">Без Telegram: на телефон</a>
+      </div>
+    </div>
+    <div class="qr-row">
+      <div class="qr" aria-label="QR-код для открытия бота в Telegram">
+        <img src="qr.svg" width="148" height="148" alt="QR-код: t.me/gamehockey_bot" loading="lazy" />
+        <span>В Telegram</span>
+      </div>
+      <div class="qr" aria-label="QR-код для установки приложения без Telegram">
+        <img src="qr-app.svg" width="148" height="148" alt="QR-код: приложение без Telegram" loading="lazy" />
+        <span>Без Telegram</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <a class="brand" href="#top"><img src="img/logo-orange.svg" width="36" height="40" alt="" /><span>Играем<br />в хоккей</span></a>
+    <p>Товарищеские игры детских команд Москвы и Московской области.</p>
+    <a class="link" href="https://t.me/gamehockey_bot?start=site">@gamehockey_bot</a>
+    <a class="link" href="https://hockey.155-212-134-75.sslip.io/app/">Без Telegram</a>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
