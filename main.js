@@ -161,18 +161,23 @@
   }
   var tiles = document.querySelectorAll("[data-live]");
   function hideTiles() { tiles.forEach(function (t) { t.hidden = true; }); }
-  fetch(appOrigin + "/api/public/stats", { headers: { Accept: "application/json" } })
+  hideTiles(); // плитки с цифрами показываем только когда числа получены, а не серые прочерки
+  var ctrl = window.AbortController ? new AbortController() : null;
+  var giveUp = setTimeout(function () { if (ctrl) ctrl.abort(); }, 8000); // сервер не ответил: страница остаётся без плиток, а не с зависшим запросом
+  fetch(appOrigin + "/api/public/stats", { headers: { Accept: "application/json" }, signal: ctrl ? ctrl.signal : undefined })
     .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
     .then(function (s) {
+      clearTimeout(giveUp);
       tiles.forEach(function (t) {
         var el = t.querySelector("[data-stat]");
         var n = Number(s[el.getAttribute("data-stat")]);
         var min = Number(t.getAttribute("data-min")) || 1;
         if (!(n >= min)) { t.hidden = true; return; } // совсем малые числа не выпячиваем: покажутся сами, когда вырастут
+        t.hidden = false;
         var label = t.querySelector("[data-forms]");
         if (label) label.textContent = plural(n, label.getAttribute("data-forms").split("|")) + (label.getAttribute("data-suffix") || "");
         count(el, n);
       });
     })
-    .catch(hideTiles);
+    .catch(function () { clearTimeout(giveUp); hideTiles(); });
 })();
